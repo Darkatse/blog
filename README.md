@@ -15,6 +15,7 @@ hugo server
 ## 部署
 
 Cloudflare Pages 项目 `darkatse-blog` 连接本仓库，推送到 `main` 后自动构建并部署到 `darkatse.com`。
+其他分支会生成预览地址，便于发布前检查。
 
 - Hugo：`0.166.0`（Pages 环境变量 `HUGO_VERSION`）
 - 构建命令：`hugo --gc --minify`
