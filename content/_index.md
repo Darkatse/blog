@@ -21,9 +21,9 @@ title: Home
 }
 </style>
 
-<h1 class="title">Hugo Paged</h1>
+<h1 class="title">Darkatse</h1>
 
-## _by_ Yihui Xie
+## Blog
 
 - CLEAN-CUT
 - PRINT FEEL

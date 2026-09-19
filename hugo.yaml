@@ -1,7 +1,6 @@
-baseurl: "/"
+baseurl: "https://darkatse.com/"
 locale: "en-US"
-title: "A Hugo theme inspired by paged.js"
-theme: "hugo-paged"
+title: "Darkatse"
 ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
 footnotereturnlinkcontents: "↩"
 
@@ -11,18 +10,18 @@ outputs:
 menu:
   main:
     - name: Github
-      url: "https://github.com/yihui/hugo-paged"
+      url: "https://github.com/Darkatse/blog"
       weight: 10
       params:
         class: [optional]
 
 params:
-  description: "A website built through Hugo with the hugo-paged theme."
+  description: "Darkatse's blog."
   logo:
     en:
-      alt: LOGO TEXT
+      alt: Darkatse
       img: # a path to the logo
-  footer: "&copy; [Yihui Xie](https://yihui.org) {Year}"
+  footer: "[Darkatse](https://github.com/Darkatse) · [Hugo Paged](https://github.com/yihui/hugo-paged) by [Yihui Xie](https://yihui.org)"
 
 security:
   allowContent: ['.*']

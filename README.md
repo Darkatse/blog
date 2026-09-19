@@ -1,13 +1,21 @@
-# HUGO PAGED
+# Darkatse's blog
 
-## _For the love of printed media_
+[darkatse.com](https://darkatse.com)
 
-A Hugo theme inspired by the paged.js website. See <https://paged.yihui.org> for a demo.
+基于 [Yihui Xie 的 Hugo Paged](https://github.com/yihui/hugo-paged)，保留主题的示例文章供后续修改。
 
-## Development
+## 本地预览
 
+```sh
+hugo server
 ```
-git clone https://github.com/yihui/hugo-paged.git
-cd hugo-paged
-hugo server --source exampleSite --themesDir ../..
-```
+
+文章放在 `content/blog/`，首页为 `content/_index.md`，站点设置在 `hugo.yaml`。
+
+## 部署
+
+Cloudflare Pages 项目 `darkatse-blog` 连接本仓库，推送到 `main` 后自动构建并部署到 `darkatse.com`。
+
+- Hugo：`0.166.0`（Pages 环境变量 `HUGO_VERSION`）
+- 构建命令：`hugo --gc --minify`
+- 输出目录：`public`

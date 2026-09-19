@@ -2,6 +2,7 @@
 .Rhistory
 .RData
 .Ruserdata
-exampleSite/public
-exampleSite/.hugo_build.lock
+/public/
+/.hugo_build.lock
+/resources/_gen/
 .positai
